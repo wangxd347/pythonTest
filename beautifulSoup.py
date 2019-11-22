@@ -1,5 +1,5 @@
 import requests
-# from bs4 import BeautifulSoup      # 解析网页  pip3 install Beautifulsoup4
+# from bs4 import BeautifulSoup        解析网页  pip3 install Beautifulsoup4
 from pyquery import PyQuery
 
 def get_data_pyquery():
