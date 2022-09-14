@@ -4,7 +4,7 @@ from pyquery import PyQuery
 
 def get_data_pyquery():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'}
-    url = 'https://www.baidu.com/s?ie=UTF-8&wd=王旭东'
+    url = 'https://www.baidu.com/s?ie=UTF-8&wd=wxd'
     strhtml = requests.get(url, headers=headers)
     # strhtml.raise_for_status()
     strhtml.encoding = "utf-8"
@@ -20,7 +20,7 @@ def get_data_pyquery():
 # --------------使用bs4解析网页-----------------
 # def get_data_bs4():
 #     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'}
-#     url = 'https://www.baidu.com/s?ie=UTF-8&wd=王旭东'
+#     url = 'https://www.baidu.com/s?ie=UTF-8&wd=wxd'
 #     strhtml = requests.get(url,headers=headers)
 #     soup = BeautifulSoup(strhtml.text, 'lxml')
 #     data = soup.select('h3.t > a')
